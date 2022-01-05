@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Navigation Menu</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="menuArea">
+            <div class="menuArea__ballArea">
+                <div class="menuArea__ball"></div>
+            </div>
+            <ul class="menuArea__list">
+                <li class="menuArea__listItem" onclick="activateMenuItem(0)">
+                    <a class="menuArea__link  menuArea__link--active" href="#"><span class="material-icons">home</span></a>
+                    <span class="menuArea__desc menuArea__desc--active">Home</span>
+                </li>
+                <li class="menuArea__listItem" onclick="activateMenuItem(1)">
+                    <a class="menuArea__link" href="#"><span class="material-icons">account_circle</span></a>
+                    <span class="menuArea__desc">Account</span>
+                </li>
+                <li class="menuArea__listItem" onclick="activateMenuItem(2)">
+                    <a class="menuArea__link" href="#"><span class="material-icons">photo</span></a>
+                    <span class="menuArea__desc">Galery</span>
+                </li>
+                <li class="menuArea__listItem" onclick="activateMenuItem(3)">
+                    <a class="menuArea__link" href="#"><span class="material-icons">settings</span></a>
+                    <span class="menuArea__desc">Settings</span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
